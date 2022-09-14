@@ -56,7 +56,7 @@ function closeModalOnClick(e) {
     return;
   }
   modal.classList.remove('is-open');
-    bodyEl.classList.remove('is-hidden');
+  bodyEl.classList.remove('is-hidden');
   clearSourceOnClose();
 }
 
@@ -68,5 +68,5 @@ function importOriginalImage(e) {
 
 function clearSourceOnClose() {
   image.setAttribute('src', '');
-  image.setAttribute('alt', '')
+  image.setAttribute('alt', '');
 }
